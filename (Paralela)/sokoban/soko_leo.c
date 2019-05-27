@@ -34,16 +34,18 @@ int y_height, player_x, player_y;
 int *y_loc;
 char *dest_board;
 
-board_t *mkboard(const char *state, const char *solution, int player_x,
-                 int player_y) {
+board_t *mkboard(const char *state, const char *solution, 
+                    int player_x, int player_y) {
   board_t *board = malloc(sizeof(board_t));
   board->state = malloc(strlen(state) + 1);
   board->solution = malloc(strlen(solution) + 1);
 
   if (board->state)
     strcpy(board->state, state);
+    
   if (board->solution)
     strcpy(board->solution, solution);
+    
   board->player_x = player_x;
   board->player_y = player_y;
 

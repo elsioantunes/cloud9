@@ -1,2 +1,8 @@
 teste de primalidade mais rápido
 https://jsfiddle.net/mjh0qfw5/32/
+
+
+### scan directory size
+sudo rm -rf /tmp/*​
+sudo apt-get install ncdu
+ncdu
