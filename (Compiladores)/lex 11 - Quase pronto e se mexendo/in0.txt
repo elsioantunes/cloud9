@@ -1,0 +1,21 @@
+
+   // teste de declaração
+   INT i, j;
+   STRING s1, sabão, égide;
+   FLOAT x, y;
+   
+   // teste de atribuição
+   // expressão e variáveis
+   i = 2;
+   j = (((3+4)/7+1)*13-5)/7; // 3 
+   égide = "Elsio " + "Antunes " + (i*j*2+((3+i)*5+8)); // 45
+   PRINT égide;
+   
+   PRINT "diga seu nome e me de dois numeros";
+   INPUT sabão, x, y;
+   
+   PRINT "Olá "+ sabão+"\nA soma de "+x+" e "+y+" é "+(x+y);
+   
+   
+   
+   

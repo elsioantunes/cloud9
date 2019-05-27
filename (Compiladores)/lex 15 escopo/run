@@ -1,0 +1,35 @@
+#!/bin/bash
+
+    var1=$1
+    rm *.class
+    rm MeuProg.java
+    javac *.java
+    clear
+    echo 
+    echo 
+    echo 
+    echo 
+    echo 
+    echo  "######################################################"
+    echo  "# arquivo a ser convertido"
+    echo  "######################################################"
+    echo 
+    cat $var1
+    echo 
+    echo  "######################################################"
+    echo  "# $var1 convertido para codigo java"
+    echo  "######################################################"
+    echo 
+    java Main $var1
+    echo 
+    echo  "######################################################"
+    echo  "# tentando executar o codigo java gerado"
+    echo  "# só se o código tiver saídas, não houver erros, " 
+    echo  "# nem na minha compilação nem na do java"
+    echo  "######################################################"
+    echo 
+    java Main $var1 > MeuProg.java
+    javac MeuProg.java
+    java MeuProg
+    
+    rm *.class

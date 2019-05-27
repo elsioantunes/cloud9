@@ -1,0 +1,36 @@
+  2,  4  ::LITERAL_STRING       STRING
+  2, 11  ::T_ID                 str
+  2, 14  ::DELIMIT_SEMICOLON    ;
+  3,  4  ::LITERAL_INT          INT
+
+  3,  8  ::T_ID                 i
+  3,  9  ::DELIMIT_COMMA        ,
+  3, 11  ::T_ID                 j
+  3, 12  ::DELIMIT_SEMICOLON    ;
+  4,  4  ::LITERAL_BOOL         BOOL
+
+  4,  9  ::T_ID                 t
+  4, 10  ::DELIMIT_SEMICOLON    ;
+  9,  4  ::T_ID                 i
+
+  9,  6  ::OP_ASSIGN            =
+  9,  8  ::NUMBER               10
+  9, 10  ::DELIMIT_SEMICOLON    ;
+ 10,  4  ::T_ID                 j
+
+ 10,  6  ::OP_ASSIGN            =
+ 10,  8  ::NUMBER               20
+ 10, 10  ::DELIMIT_SEMICOLON    ;
+ 12,  4  ::T_ID                 t
+
+ 12,  6  ::OP_ASSIGN            =
+ 12,  8  ::LITERAL_true         true
+ 12, 13  ::REL_AND              &&
+ 12, 16  ::LITERAL_false        false
+ 12, 21  ::DELIMIT_SEMICOLON    ;
+ 14,  4  ::LITERAL_PRINT        PRINT
+
+ 14, 10  ::LITERAL_true         true
+ 14, 15  ::DELIMIT_SEMICOLON    ;
+ 17,  4  ::EOF                  
+

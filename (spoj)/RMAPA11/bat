@@ -1,0 +1,7 @@
+g++ gerador.cpp -o lol
+./lol>in1
+g++ rmapa11.cpp -o lol
+./lol<in1>outa
+g++ rmapa11Prim.cpp -o lol
+./lol<in1>outb
+diff outa outb

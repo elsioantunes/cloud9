@@ -1,0 +1,14 @@
+
+   STRING s;
+   INT a, b;
+   
+   PRINT "digite dois números e um nome";
+   //INPUT a, b, s;
+
+   WHILE a<3
+      a = a + 1;
+      b = (3+5)*2+1;
+      PRINT a + b;
+   LOOP
+   PRINT "Acabou!";
+

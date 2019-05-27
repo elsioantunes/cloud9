@@ -1,0 +1,52 @@
+Atualmente os arquivos principais que vc precisa entender sãos
+ 
+ - MeuParsa.java
+        
+        é tipo a main. tudo é feito ali. 
+        A gramática está sendo aplicada como mostra naquela parte comentada
+        
+ - Parser.java
+        
+        todas as definições de funções usadas no meuParsa
+        Sempre que algum método ficava grande eu enxugava 
+        e botava um atalho lá no parser pra deixar no MeuParsa 
+        só aquilo que deixe claro que está sendo feito
+        
+        Adicionalmente, a pilha que aninha os corpos e 
+        a fila que guarda as expressões também está 
+        sendo definida ali.
+        
+        Na última modificação, coloquei lá tb, a partir da linha 176
+        outros atalhos, agora para o Programa.java. Esses atalhos vão 
+        levar aos objetos que vão representar cada comando. Tem um pra 
+        cada comando. lembrando que o if e o while são comandos que contém
+        outros comandos, então precisa ser aninhado. faço isso com a ajuda
+        de dois outros métodos na linha 180. Um pra jogar na pilha (subir 1 nivel)
+        e outro pra descer um nível.
+        
+        Pq ali? pq são instanciamentos de objetos (new isso, new aquilo)
+        e precisam ser feitos em algum lugar com uma variável global cmd.
+        Nesse momento acaba de me ocorrer que podia ter feito uma classe
+        só pra isso.
+        
+        Ia me esquecendo, a partir da linha 215 tem também os métodos 
+        que tratam das variáveis, jogando pra symbolTable, confirmando
+        se existentes.. etc. 
+        
+        no final de parser tb tem o método Opera() que fica responsável por 
+        pegar os valores e o operador e executar as operações possíveis
+        dando o resultado no tipo adequado.
+        
+        
+        
+ - Programa.java
+        
+        Ali, o objeto principal se chama Programa e todos os comandos
+        extendem de programa. Na verdade, são todos vértices de uma 
+        árvore. O nó raiz Programa contém uma lista de comandos que 
+        todos os seus filhos herdam. Cada vértice tem seu comando de
+        writeCode e o próximo passo é fazer neles um método run()
+        
+    
+ 
+        

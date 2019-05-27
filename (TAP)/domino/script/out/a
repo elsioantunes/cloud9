@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for i in {00..99}; do
+    cat "file$i" >> b
+done
+

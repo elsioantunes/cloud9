@@ -1,0 +1,21 @@
+   INT a, b;
+   STRING s1, s2, s3;
+   BOOL p, q;
+   DOUBLE x, y;
+   b = 4;
+   INPUT b, s1, p, x;
+   a = 3;
+   WHILE a<b
+   a = (3+5)*2;
+   p = 2<1;
+   IF a>b
+   PRINT a;
+   PRINT p;
+   ELSE
+   x = 3.5;
+   y = .5;
+   ENDIF
+   LOOP
+   PRINT (3+5)*2;
+   PRINT (a+5)*2;
+   

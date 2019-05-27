@@ -1,0 +1,6 @@
+1) Analise as diferenças entre o código de avl.h e o código de bst.h.
+2) Insira as chaves { 7, 2, 4, 3, 8, 1, 0, 6, 9, 5 } em uma BST e uma AVL. Plote o diagrama DOT e compare.
+3) Atualmente, o método PrintDot aceita um parâmetro booleano para informar se a altura de cada subárvore deve ser mostrada no diagrama DOT. Modifique este método em avl.h de modo a mostrar o fator de balanceamento de cada nó.
+4) Insira as chaves { 7, 2, 4, 3, 8, 1, 0, 6, 9, 5 } em uma AVL e plote o diagrama DOT para cada inserção. Verifique em quais momentos houve rotações e quais tipos de rotação foram aplicadas.
+5) Repita o exercício anterior para as chaves em ordem crescente, decrescente e zigue-zague.
+6) Adapte o exercício 6 da última aula (inserções e remoções aleatórias) para a árvore AVL.

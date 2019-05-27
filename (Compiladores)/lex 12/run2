@@ -1,0 +1,3 @@
+javac MeuProg.java
+java MeuProg
+rm *.class

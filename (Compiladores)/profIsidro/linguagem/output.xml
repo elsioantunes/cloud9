@@ -1,0 +1,42 @@
+<program>
+    <variableList>
+        <var id=a/>
+        <var id=b/>
+        <var id=c/>
+        <var id=d/>
+    </variableList>
+    <commands>
+        <read>a</read>
+        <read>b</read>
+        <if expr="a>b">
+            <commandList>
+                <write>
+                    <type>1</type>
+                    <content>"a eh o maior"</content>
+                </write>
+                <write>
+                    <type>1</type>
+                    <content>"agora vai"</content>
+                </write>
+                <write>
+                    <type>1</type>
+                    <content>"se rolar o Isidro vaza"</content>
+                </write>
+                <if expr="2>5">
+                    <commandList>
+                        <read>a</read>
+                        <read>b</read>
+                    </commandList>
+                </if>
+            </commandList>
+        </if>
+        <write>
+            <type>2</type>
+            <content>a</content>
+        </write>
+        <write>
+            <type>2</type>
+            <content>b</content>
+        </write>
+    </coomands>
+</program>

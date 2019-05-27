@@ -1,0 +1,38 @@
+   
+   
+   // ATENÇÃO: em JAVA 
+   // a mesma variável não pode ser declarada 
+   // dentro e fora de um if ou um while
+   // O java só permite mesma variável 
+   // dentro e fora de classes ou funções diferentes
+   //
+   // mas a minha linguagem, a exemplo de outras, o faz :p
+   // só não traduz isso para java :(
+   
+   INT a;
+   a = 9;
+   PRINT a;                   // 9
+   
+   INPUT a;
+
+   WHILE 3>4
+      INT a;                  
+      PRINT a;                // 0
+      a = 13;
+
+      IF 3>4
+         PRINT a;             // 13
+         INT a;
+         a = 3;
+         PRINT a;             // 3
+      ELSE
+         PRINT a;              13
+         INT a;
+         a = 7;
+         PRINT a;             // 7
+      ENDIF
+
+      PRINT a;                // 9
+   LOOP
+
+   PRINT a;

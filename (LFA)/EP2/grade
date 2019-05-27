@@ -1,0 +1,26 @@
+#!/bin/bash
+
+count=0
+
+rm test*.txt -f
+
+for i in {00..99}
+do
+    timeout 3s $@ < "./tests/in${i}.txt" > "./tests/test${i}.txt"
+#    ../ep2 < "in${i}.txt" > "test${i}.txt"
+    OUTSIZE=$(stat -c%s "./tests/out${i}.txt")
+    TSTSIZE=$(stat -c%s "./tests/test${i}.txt")
+    if [ "$OUTSIZE" -ne "$TSTSIZE" ]; then
+	echo "${i} timeout"
+    else
+	if [ "$(diff ./tests/test${i}.txt ./tests/out${i}.txt)" ]; then
+	    echo "${i} not ok"
+	else
+	    echo "${i} ok"
+	    let count=count+1
+	fi
+    fi
+done
+
+echo "Nota $count de 100."
+

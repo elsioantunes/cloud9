@@ -1,0 +1,6 @@
+clear
+rm MeuProg.java
+javac *.java
+java Main > MeuProg.java 2> TokensFile.txt
+javac MeuProg.java
+java MeuProg

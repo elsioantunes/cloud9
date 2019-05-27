@@ -1,0 +1,28 @@
+Instruções:
+==========
+
+* compile seu programa (por exemplo, prog.c) usando
+
+    gcc prog.c -o prog
+
+* teste seu programa 
+* chame o script grade.bash para obter a nota do seu programa assim:
+
+    ./grade.bash prog
+
+* submeta o arquivo com o código-fonte, no Tidia, quando estiver contente com o resultado.
+
+* se você fez em outra linguagem, terá de encapsular quaisquer comandos necessários para a execução do seu programa num executavel bash, para que a chamada do script de correção funcione da mesma forma. Por exemplo, se você fez em Java e chamou seu programa de Main, crie o arquivo prog com o conteúdo:
+
+#!/bin/bash
+java Main
+
+depois faça:
+
+    chmod 755 prog
+    ./grade.bash prog
+
+
+
+
+

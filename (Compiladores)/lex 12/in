@@ -1,0 +1,26 @@
+
+   FLOAT x, y;
+   INT i, j;
+   
+   i = 5;
+   x = 9.1;
+   y = .1;
+   
+   
+   PRINT "inicio"+ " do programa" + (0.1+0.1);
+   PRINT ((x+5)*3+j*x)+i;
+   PRINT 0.1+0.1 == 0.2;
+   
+   UNTIL i>6
+      IF i<=2 THEN
+         STRING str;
+         str = "não tem operador de incremento";
+         PRINT str;
+         i = i + 1; //foda-se. 
+      //ELSE
+         PRINT i + 1;
+      ENDIF
+      i = i + 1; 
+   LOOP
+   
+   

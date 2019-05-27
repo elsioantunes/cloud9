@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1439159291 source:e:\salvador\(facu)\(aed)\spoj\catalogo2\main.cpp
+	<iostream>
+	<string>
+	<unordered_map>
+	<vector>
+

@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1435535073 source:e:\salvador\(facu)\(aed)\spoj\f91\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<set>
+	<map>
+	<deque>
+	<cstdio>
+	<cstdlib>
+	<algorithm>
+	<stack>
+	<queue>
+	<cmath>
+	<fstream>
+

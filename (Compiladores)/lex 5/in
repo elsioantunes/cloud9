@@ -1,0 +1,23 @@
+    
+
+    INT a, b;
+    STRING s, r, t;
+    FLOAT c, d;
+    
+    _b4n4n45 = 9;       .7; 
+    l4r4nj45 = 8;;
+    a = 'a';
+    str = "string";;;
+    
+    /*isso é pra dar um waring */   
+    9;       
+    
+    b = 666;
+    c = .866;
+    d = 1;
+    f = 3;
+
+    READ e, f;
+    PRINT b-d+f+_b4n4n45+l4r4nj45; // o resultado será 668
+
+

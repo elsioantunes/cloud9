@@ -1,0 +1,26 @@
+elsio:~/workspace/(Paralela)/sokoban $ git init
+Initialized empty Git repository in /home/ubuntu/workspace/(Paralela)/sokoban/.git/
+
+elsio:~/workspace/(Paralela)/sokoban (master) $ git remote add origin git@github.com:Alekhinne/cloud9.git 
+
+elsio:~/workspace/(Paralela)/sokoban (master) $ git add .
+
+elsio:~/workspace/(Paralela)/sokoban (master) $ git commit -m "hello commit"
+[master (root-commit) c085566] hello commit
+ 6 files changed, 375 insertions(+)
+ create mode 100755 run
+ create mode 100644 sokoban0a.py
+ create mode 100644 sokoban0b.py
+ create mode 100644 sokoban1a.c
+ create mode 100644 sokoban1a.py
+ create mode 100644 utils.py
+ 
+elsio:~/workspace/(Paralela)/sokoban (master) $ 
+
+
+echo "# sieve" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:Alekhinne/sieve.git
+git push -u origin master

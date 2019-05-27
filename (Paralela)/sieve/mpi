@@ -1,0 +1,2 @@
+mpic++ $1 -o lol -lm
+time mpirun -n $2 lol $3

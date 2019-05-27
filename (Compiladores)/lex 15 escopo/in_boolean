@@ -1,0 +1,18 @@
+
+
+   BOOL p, q;
+   
+   q = true && false;
+   
+   p = q && true;
+   
+   PRINT p;
+   PRINT false || false || true || false || false ;
+   
+   PRINT (6 < 5) ||  (8>7) ;
+   
+   
+   STRING s, r;
+   r = "na ";
+   s = "ELSIO " + r;
+   PRINT s + "UFABC";

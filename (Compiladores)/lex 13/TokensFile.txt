@@ -1,0 +1,12 @@
+8,10:	### WARING: variável 'a' foi declarada mas não foi atribuída
+
+9,11:	### WARING: variavel 'a' non ecziste!
+
+Linha 9:	### WARING: variavel 'a' não declarada
+
+Linha 10:	### WARING: variavel 'b' não declarada
+
+11,13:	### WARING: variavel 'a' non ecziste!
+
+11,17:	### WARING: variavel 'b' non ecziste!
+

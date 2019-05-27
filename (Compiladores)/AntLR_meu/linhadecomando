@@ -1,0 +1,3 @@
+java -cp antlr.jar antlr.Tool gramatica.g
+javac -classpath antlr.jar:. *.java
+java -cp antlr.jar:. MainClass < input.in

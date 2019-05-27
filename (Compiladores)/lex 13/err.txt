@@ -1,0 +1,7 @@
+MeuParsa.java:40: error: constructor While in class While cannot be applied to given types;
+        escopo = new While(raiz, a, LIN);
+                 ^
+  required: Var,int
+  found: Comando,Var,int
+  reason: actual and formal argument lists differ in length
+1 error

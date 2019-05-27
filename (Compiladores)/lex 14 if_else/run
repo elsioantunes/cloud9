@@ -1,0 +1,4 @@
+rm *.class
+rm MeuProg.java
+javac *.java 2> err.txt
+java Main 

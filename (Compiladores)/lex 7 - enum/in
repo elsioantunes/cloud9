@@ -1,0 +1,26 @@
+    
+    INT a, b, c;
+    INT a, b , c, d, e, f, g;
+    FLOAT c, d;
+    STRING s, r, t;
+    
+    _b4n4n45 = 9;       .7; 
+    l4r4nj45 = 8;;
+    a = 'a';
+
+    str = "string";;;
+    
+    9;       
+    "string fora de lugar"
+    '\\'
+    'o que que vai dar isso?'
+
+    c = .866;
+    d = 1;
+    f = 3;
+    
+
+    INPUT e, f;
+    PRINT   (11-12)-2*(3+4)+3*(1+2)+12/6 ;   // funciona!!! (os parentesis consertados!) 2*(5*(2+3)+7)+1
+
+

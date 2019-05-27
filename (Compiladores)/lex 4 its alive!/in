@@ -1,0 +1,13 @@
+/* declaração (basica) de variavei */
+DECLARE a, b, c, d, e;
+
+a = 2; // atribui o valor 2 à variável "a"
+b = 3;
+c = 5;
+d = 7;
+e = 4; 
+
+PRINT a + 100 +b+ c -d-e; // tem que dar 99
+
+
+

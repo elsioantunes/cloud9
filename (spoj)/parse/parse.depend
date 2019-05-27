@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1436850011 source:e:\salvador\(facu)\(aed)\spoj\parse\main.cpp
+	<iostream>
+	<string>
+	<unordered_map>
+

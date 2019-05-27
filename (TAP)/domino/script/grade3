@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "#####" > c
+
+
+for i in {00..99}; do
+    echo "###########################$i" >> c
+    timeout 5s ./dominoGrafo.py < ./in/file$i >>  c
+    timeout 5s ../domino.py < ./in/file$i >> c
+done
+

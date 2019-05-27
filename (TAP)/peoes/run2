@@ -1,0 +1,2 @@
+g++ peoes2.cpp -o lol
+./lol

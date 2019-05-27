@@ -1,0 +1,5 @@
+mkdir bak
+for i in $(ls *.java); do
+    cp $i bak/$i
+done
+    

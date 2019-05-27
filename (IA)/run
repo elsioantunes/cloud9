@@ -1,0 +1,5 @@
+rm -f ./lol
+g++ test.cpp -o lol
+./lol
+rm -f ./arq
+./lol > arq

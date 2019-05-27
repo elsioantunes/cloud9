@@ -1,0 +1,9 @@
+#!/bin/bash
+g++ parsa1a.cpp -o lol
+./lol<in>out
+
+if [ "$(diff out out.1)" ]; then
+    echo "fodeu :p "
+else
+    echo "deu certo!"
+fi

@@ -1,0 +1,4 @@
+rm *.class
+rm MeuProg.java
+javac *.java 
+java Main 2> TokensFile.txt

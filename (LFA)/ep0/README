@@ -1,0 +1,8 @@
+Instruções:
+-----------
+
+1. Coloque o arquivo com o código fonte do seu trabalho neste diretório.
+
+2. Abra um terminal e navegue até este diretório.
+
+3. Execute o script ./scripts/corretor

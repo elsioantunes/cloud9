@@ -1,0 +1,31 @@
+
+    FLOAT a, b; // float, na verdade, será arredondado
+    a = 2.1;
+    b = 3.9;
+
+    INT a, b, c;
+    c = 0;
+    a = (4.1+5-1)*a+(b*4); // atribuição de expressão!
+
+    PRINT a + c;
+    PRINT (a/2)+a; // print de expressão!
+    PRINT b;
+
+    INT d, e, a, f; 
+    INPUT e, f;  // variaveis de input tem que estar declaradas
+
+    STRING s, r, t;
+    s = "imprima isto";
+    r = 3;
+    r = s;  //warings 
+    r = a;
+    r = i;
+
+    PRINT s;
+    PRINT r;
+    a = 'a';
+    a = b+a;
+    PRINT a+b;
+    
+    // vários warings
+    9; "string fora de lugar" '\\' 'o que que vai dar isso?'

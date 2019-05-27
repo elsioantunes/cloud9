@@ -1,0 +1,20 @@
+
+
+    INT a;
+    a = 3;
+    PRINT a;
+    
+    IF 3==3
+          INT a;
+         a = 13;
+         PRINT a;
+    ELSE
+         
+          INT a;
+         a = 15;
+         PRINT a;
+    
+    
+    ENDIF
+    
+    PRINT a;

@@ -1,0 +1,134 @@
+  1,  4  ::LITERAL_STRING       STRING
+  1, 11  ::T_ID                 str
+  1, 14  ::DELIMIT_SEMICOLON    ;
+
+  2,  4  ::LITERAL_INT          INT
+  2,  8  ::T_ID                 i
+  2,  9  ::DELIMIT_COMMA        ,
+  2, 11  ::T_ID                 j
+  2, 12  ::DELIMIT_SEMICOLON    ;
+
+  3,  4  ::LITERAL_FLOAT        FLOAT
+  3, 10  ::T_ID                 x
+  3, 11  ::DELIMIT_COMMA        ,
+  3, 13  ::T_ID                 y
+  3, 14  ::DELIMIT_SEMICOLON    ;
+
+  5,  4  ::T_ID                 i
+  5,  6  ::OP_ASSIGN            =
+  5,  8  ::NUMBER               2
+  5,  9  ::DELIMIT_SEMICOLON    ;
+
+  6,  4  ::T_ID                 j
+  6,  6  ::OP_ASSIGN            =
+  6,  8  ::NUMBER               3
+  6,  9  ::OP_TIMES             *
+  6, 10  ::DELIMIT_LPAR         (
+  6, 11  ::NUMBER               5
+  6, 12  ::OP_PLUS              +
+  6, 13  ::NUMBER               1
+  6, 14  ::DELIMIT_RPAR         )
+  6, 15  ::OP_MINUS             -
+  6, 16  ::NUMBER               3
+  6, 17  ::DELIMIT_SEMICOLON    ;
+
+  8,  4  ::T_ID                 str
+  8,  8  ::OP_ASSIGN            =
+  8, 10  ::T_STRING             "putaquepariu "
+  8, 25  ::DELIMIT_SEMICOLON    ;
+
+  9,  4  ::LITERAL_PRINT        PRINT
+  9, 10  ::T_STRING             "escreva dois numeros"
+  9, 32  ::DELIMIT_SEMICOLON    ;
+
+ 10,  4  ::LITERAL_INPUT        INPUT
+ 10, 10  ::T_ID                 x
+ 10, 11  ::DELIMIT_COMMA        ,
+ 10, 13  ::T_ID                 y
+ 10, 14  ::DELIMIT_SEMICOLON    ;
+
+ 12,  4  ::LITERAL_PRINT        PRINT
+ 12, 10  ::T_STRING             "x + y = "
+ 12, 21  ::OP_PLUS              +
+ 12, 23  ::DELIMIT_LPAR         (
+ 12, 24  ::T_ID                 x
+ 12, 26  ::OP_PLUS              +
+ 12, 28  ::T_ID                 y
+ 12, 29  ::DELIMIT_RPAR         )
+ 12, 30  ::DELIMIT_SEMICOLON    ;
+
+ 13,  4  ::LITERAL_PRINT        PRINT
+ 13, 10  ::T_STRING             "x * y = "
+ 13, 21  ::OP_PLUS              +
+ 13, 23  ::DELIMIT_LPAR         (
+ 13, 24  ::T_ID                 x
+ 13, 26  ::OP_TIMES             *
+ 13, 28  ::T_ID                 y
+ 13, 29  ::DELIMIT_RPAR         )
+ 13, 30  ::DELIMIT_SEMICOLON    ;
+
+ 14,  4  ::LITERAL_PRINT        PRINT
+ 14, 10  ::T_STRING             "(x * (x + y) + y) * x = "
+ 14, 37  ::OP_PLUS              +
+ 14, 39  ::DELIMIT_LPAR         (
+ 14, 40  ::DELIMIT_LPAR         (
+ 14, 41  ::T_ID                 x
+ 14, 43  ::OP_TIMES             *
+ 14, 45  ::DELIMIT_LPAR         (
+ 14, 46  ::T_ID                 x
+ 14, 48  ::OP_PLUS              +
+ 14, 50  ::T_ID                 y
+ 14, 51  ::DELIMIT_RPAR         )
+ 14, 53  ::OP_PLUS              +
+ 14, 55  ::T_ID                 y
+ 14, 56  ::DELIMIT_RPAR         )
+ 14, 58  ::OP_TIMES             *
+ 14, 60  ::T_ID                 x
+ 14, 62  ::OP_MINUS             -
+ 14, 64  ::NUMBER2              0.00000001
+ 14, 74  ::DELIMIT_RPAR         )
+ 14, 75  ::DELIMIT_SEMICOLON    ;
+
+ 16,  4  ::LITERAL_WHILE        WHILE
+ 16, 10  ::T_ID                 j
+ 16, 11  ::REL_GT               >
+ 16, 12  ::NUMBER               0
+ 17,  7  ::LITERAL_WHILE        WHILE
+ 17, 13  ::T_ID                 i
+ 17, 14  ::REL_LT               <
+ 17, 15  ::NUMBER               10
+ 18, 10  ::LITERAL_PRINT        PRINT
+ 18, 17  ::T_ID                 str
+ 18, 21  ::OP_PLUS              +
+ 18, 23  ::T_ID                 i
+ 18, 25  ::OP_PLUS              +
+ 18, 26  ::T_STRING             " vezes, consegui aninhar essa porra!"
+ 18, 64  ::DELIMIT_SEMICOLON    ;
+
+ 19, 10  ::T_ID                 i
+ 19, 12  ::OP_ASSIGN            =
+ 19, 14  ::T_ID                 i
+ 19, 15  ::OP_PLUS              +
+ 19, 16  ::NUMBER               1
+ 19, 17  ::DELIMIT_SEMICOLON    ;
+
+ 20,  7  ::LITERAL_LOOP         LOOP
+ 21,  7  ::LITERAL_PRINT        PRINT
+ 21, 13  ::T_STRING             "Agora é o Elsio que vaza!"
+ 21, 41  ::OP_PLUS              +
+ 21, 43  ::T_ID                 j
+ 21, 44  ::DELIMIT_SEMICOLON    ;
+
+ 22,  7  ::T_ID                 j
+ 22,  9  ::OP_ASSIGN            =
+ 22, 11  ::T_ID                 j
+ 22, 13  ::OP_MINUS             -
+ 22, 14  ::NUMBER               1
+ 22, 15  ::DELIMIT_SEMICOLON    ;
+
+ 23,  4  ::LITERAL_LOOP         LOOP
+ 26,  4  ::LITERAL_PRINT        PRINT
+ 26, 10  ::T_STRING             "Meus codigos java vão ficar bem mais bonitos agora"
+ 26, 62  ::DELIMIT_SEMICOLON    ;
+
+ 28,  1  ::EOF                  

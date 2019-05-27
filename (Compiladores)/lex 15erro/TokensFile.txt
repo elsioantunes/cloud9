@@ -1,0 +1,62 @@
+2,4:	LITERAL_INT
+
+2,8:	T_ID
+
+2,9:	DELIMIT_COMMA
+
+2,11:	T_ID
+
+2,12:	DELIMIT_SEMICOLON
+
+3,4:	LITERAL_PRINT
+
+3,10:	T_STRING
+
+3,28:	DELIMIT_SEMICOLON
+
+4,4:	LITERAL_BOOL
+
+4,9:	T_ID
+
+4,10:	DELIMIT_SEMICOLON
+
+5,4:	T_ID
+
+5,6:	OP_ASSIGN
+
+5,8:	NUMBER
+
+5,9:	DELIMIT_SEMICOLON
+
+6,4:	T_ID
+
+6,6:	OP_ASSIGN
+
+6,8:	LITERAL_true
+
+6,12:	DELIMIT_SEMICOLON
+
+7,4:	LITERAL_PRINT
+
+7,10:	T_ID
+
+7,12:	OP_TIMES
+
+7,14:	T_ID
+
+7,15:	DELIMIT_SEMICOLON
+
+Exception in thread "main" java.lang.NumberFormatException: For input string: "true"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:492)
+	at java.lang.Integer.parseInt(Integer.java:527)
+	at MeuParsa.Opera(MeuParsa.java:286)
+	at MeuParsa.prod(MeuParsa.java:214)
+	at MeuParsa.exp(MeuParsa.java:197)
+	at MeuParsa.expr(MeuParsa.java:185)
+	at MeuParsa.expl(MeuParsa.java:173)
+	at MeuParsa.CMD_Print(MeuParsa.java:79)
+	at MeuParsa.bloco(MeuParsa.java:68)
+	at MeuParsa.start(MeuParsa.java:36)
+	at MeuParsa.<init>(MeuParsa.java:27)
+	at Main.main(Main.java:3)

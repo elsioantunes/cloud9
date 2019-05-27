@@ -1,0 +1,4 @@
+clear
+javac *.java
+java Main 2> TokensFile.txt
+rm *.class

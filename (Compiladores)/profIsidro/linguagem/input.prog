@@ -1,0 +1,19 @@
+programa 
+declare a, b, c, d. 
+inicio 
+   leia a. 
+   leia b.
+     se (a > b) entao
+        inicio
+            mostre "a eh o maior".
+            mostre "agora vai".
+            mostre "se rolar o Isidro vaza".
+            se (2 > 5) entao inicio
+               leia a.
+               leia b.
+            fim
+        fim
+     mostre a.
+     mostre b.
+fim 
+fimprog

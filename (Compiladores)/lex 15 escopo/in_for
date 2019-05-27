@@ -1,0 +1,13 @@
+
+   INT i, j;
+   PRINT "Tabuada em basic";
+   FOR i = 1 TO 9 STEP 2
+      FOR j = 1 TO 9
+         PRINT i + " x " + j + " = " + i*j;
+      NEXT 
+      PRINT "";
+   NEXT
+   
+   
+   
+   

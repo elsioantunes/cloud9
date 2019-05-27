@@ -1,0 +1,1009 @@
+4
+eps b
+ba b
+baa b
+baa baa
+
+4
+a eps
+aa eps
+aaa eps
+aaa aaa
+
+5
+a eps
+aa eps
+aa aab
+aaba eps
+aaba aaba
+
+5
+eps b
+eps bb
+eps bbb
+bbba bbb
+bbba bbba
+
+5
+eps b
+eps bb
+bba bb
+eps bbab
+bbab bbab
+
+5
+a eps
+aa eps
+aa aab
+a aabb
+aabb aabb
+
+5
+a eps
+aa eps
+aaa eps
+aaaa eps
+aaaa aaaa
+
+5
+eps b
+ba b
+baa b
+baaa b
+baaa baaa
+
+5
+a eps
+aa eps
+aa aab
+a aabb
+aabb aabb
+
+5
+eps b
+ba b
+eps bab
+baba b
+baba baba
+
+5
+a eps
+a ab
+a abb
+a abbb
+abbb abbb
+
+5
+eps b
+ba b
+eps bab
+baba b
+baba baba
+
+4
+eps b
+ba b
+eps bab
+bab bab
+
+6
+a eps
+aa eps
+aaa eps
+aaaa eps
+aaaa aaaab
+aaaab aaaab
+
+6
+a eps
+aa eps
+aaa eps
+aaa aaab
+aaaba eps
+aaaba aaaba
+
+6
+a eps
+a ab
+a abb
+abba eps
+abbaa ab
+abbaa abbaa
+
+6
+eps b
+eps bb
+eps bbb
+eps bbbb
+eps bbbbb
+bbbbb bbbbb
+
+6
+eps b
+ba b
+eps bab
+baba b
+eps babab
+babab babab
+
+6
+a eps
+a ab
+a abb
+abba eps
+abbaa ab
+abbaa abbaa
+
+6
+a eps
+aa eps
+aa aab
+aaba eps
+aa aabab
+aabab aabab
+
+6
+a eps
+a ab
+a abb
+abba eps
+abbaa ab
+abbaa abbaa
+
+6
+a eps
+a ab
+aba eps
+abaa ab
+a abaab
+abaab abaab
+
+6
+eps b
+ba b
+eps bab
+baba b
+babaa bab
+babaa babaa
+
+4
+eps b
+ba b
+eps bab
+bab bab
+
+7
+eps b
+eps bb
+eps bbb
+bbba bbb
+eps bbbab
+bbbaba bb
+bbbaba bbbaba
+
+7
+eps b
+eps bb
+bba bb
+eps bbab
+eps bbabb
+bbabba bb
+bbabba bbabba
+
+7
+eps b
+eps bb
+bba bb
+eps bbab
+bbaba bb
+bbabaa b
+bbabaa bbabaa
+
+7
+a eps
+aa eps
+aaa eps
+aaaa eps
+aaaaa eps
+aaaaa aaaaab
+aaaaab aaaaab
+
+7
+eps b
+ba b
+eps bab
+ba babb
+babba b
+babbaa bab
+babbaa babbaa
+
+7
+eps b
+ba b
+baa b
+baaa b
+baaaa b
+baaaaa b
+baaaaa baaaaa
+
+7
+eps b
+eps bb
+bba bb
+eps bbab
+eps bbabb
+bbabba bb
+bbabba bbabba
+
+7
+a eps
+a ab
+aba eps
+a abab
+ababa eps
+a ababab
+ababab ababab
+
+7
+a eps
+a ab
+aba eps
+a abab
+ababa eps
+a ababab
+ababab ababab
+
+7
+eps b
+eps bb
+bba bb
+eps bbab
+eps bbabb
+bbabba bb
+bbabba bbabba
+
+4
+a eps
+aa eps
+aaa eps
+aaa aaa
+
+8
+eps b
+eps bb
+eps bbb
+bbba bbb
+bbbaa b
+eps bbbaab
+eps bbbaabb
+bbbaabb bbbaabb
+
+8
+eps b
+eps bb
+bba bb
+eps bbab
+eps bbabb
+bba bbabbb
+bbabbba bb
+bbabbba bbabbba
+
+8
+eps b
+eps bb
+bba bb
+eps bbab
+bbaba bb
+bbabaa b
+eps bbabaab
+bbabaab bbabaab
+
+8
+a eps
+a ab
+a abb
+abba eps
+a abbab
+a abbabb
+abbabba eps
+abbabba abbabba
+
+8
+a eps
+a ab
+aba eps
+abaa ab
+a abaab
+aba abaabb
+a abaabbb
+abaabbb abaabbb
+
+8
+eps b
+ba b
+eps bab
+ba babb
+ba babbb
+ba babbbb
+ba babbbbb
+babbbbb babbbbb
+
+8
+eps b
+eps bb
+eps bbb
+eps bbbb
+bbbba bbbb
+bbbbaa b
+eps bbbbaab
+bbbbaab bbbbaab
+
+8
+eps b
+eps bb
+eps bbb
+eps bbbb
+bbbba bbbb
+bbbbaa b
+bbbbaaa b
+bbbbaaa bbbbaaa
+
+8
+eps b
+ba b
+baa b
+eps baab
+baaba b
+baa baabab
+ba baababb
+baababb baababb
+
+8
+eps b
+ba b
+eps bab
+baba b
+eps babab
+bababa b
+bababaa babab
+bababaa bababaa
+
+4
+eps b
+ba b
+eps bab
+bab bab
+
+9
+a eps
+a ab
+a abb
+abba eps
+abbaa ab
+a abbaab
+abbaaba abb
+abbaabaa ab
+abbaabaa abbaabaa
+
+9
+eps b
+ba b
+eps bab
+baba b
+babaa bab
+eps babaab
+babaaba b
+eps babaabab
+babaabab babaabab
+
+9
+eps b
+eps bb
+eps bbb
+eps bbbb
+eps bbbbb
+bbbbba bbbbb
+bbbbbaa b
+bbbbbaaa b
+bbbbbaaa bbbbbaaa
+
+9
+a eps
+a ab
+aba eps
+abaa ab
+abaaa ab
+a abaaab
+aba abaaabb
+abaaabba eps
+abaaabba abaaabba
+
+9
+eps b
+eps bb
+bba bb
+eps bbab
+eps bbabb
+bbabba bb
+bbabbaa bbab
+eps bbabbaab
+bbabbaab bbabbaab
+
+9
+eps b
+ba b
+baa b
+baaa b
+baaaa b
+eps baaaab
+baaaaba b
+baa baaaabab
+baaaabab baaaabab
+
+9
+eps b
+ba b
+baa b
+baaa b
+eps baaab
+ba baaabb
+ba baaabbb
+ba baaabbbb
+baaabbbb baaabbbb
+
+9
+a eps
+a ab
+a abb
+a abbb
+abbba eps
+abbbaa ab
+abbbaaa ab
+a abbbaaab
+abbbaaab abbbaaab
+
+9
+a eps
+aa eps
+aaa eps
+aaa aaab
+a aaabb
+a aaabbb
+a aaabbbb
+a aaabbbbb
+aaabbbbb aaabbbbb
+
+9
+eps b
+eps bb
+bba bb
+bbaa b
+eps bbaab
+bbaaba bb
+eps bbaabab
+bbaababa bb
+bbaababa bbaababa
+
+4
+eps b
+ba b
+baa b
+baa baa
+
+10
+a eps
+aa eps
+aa aab
+aaba eps
+aa aabab
+a aababb
+aababba eps
+aa aababbab
+aababbaba eps
+aababbaba aababbaba
+
+10
+eps b
+eps bb
+bba bb
+bbaa b
+bbaaa b
+bbaaaa b
+eps bbaaaab
+eps bbaaaabb
+bba bbaaaabbb
+bbaaaabbb bbaaaabbb
+
+10
+a eps
+aa eps
+aa aab
+aaba eps
+aa aabab
+a aababb
+a aababbb
+a aababbbb
+a aababbbbb
+aababbbbb aababbbbb
+
+10
+a eps
+aa eps
+aa aab
+a aabb
+a aabbb
+a aabbbb
+aabbbba eps
+aabbbbaa eps
+aa aabbbbaab
+aabbbbaab aabbbbaab
+
+10
+eps b
+ba b
+baa b
+eps baab
+ba baabb
+ba baabbb
+ba baabbbb
+ba baabbbbb
+ba baabbbbbb
+baabbbbbb baabbbbbb
+
+10
+a eps
+aa eps
+aa aab
+a aabb
+a aabbb
+a aabbbb
+aabbbba eps
+aa aabbbbab
+aabbbbaba eps
+aabbbbaba aabbbbaba
+
+10
+eps b
+ba b
+eps bab
+ba babb
+babba b
+babbaa bab
+babbaaa b
+babbaaaa b
+babbaaaaa b
+babbaaaaa babbaaaaa
+
+10
+eps b
+ba b
+eps bab
+ba babb
+ba babbb
+babbba b
+eps babbbab
+babbbaba babb
+eps babbbabab
+babbbabab babbbabab
+
+10
+a eps
+a ab
+a abb
+a abbb
+abbba eps
+a abbbab
+a abbbabb
+abbbabba abbb
+abbbabbaa ab
+abbbabbaa abbbabbaa
+
+10
+eps b
+ba b
+eps bab
+ba babb
+babba b
+eps babbab
+ba babbabb
+babbabba b
+eps babbabbab
+babbabbab babbabbab
+
+4
+a eps
+aa eps
+aaa eps
+aaa aaa
+
+11
+eps b
+ba b
+baa b
+eps baab
+ba baabb
+ba baabbb
+ba baabbbb
+ba baabbbbb
+baabbbbba b
+baabbbbbaa b
+baabbbbbaa baabbbbbaa
+
+11
+a eps
+a ab
+a abb
+abba eps
+abbaa ab
+a abbaab
+abbaaba abb
+a abbaabab
+abbaababa abb
+a abbaababab
+abbaababab abbaababab
+
+11
+a eps
+a ab
+a abb
+a abbb
+a abbbb
+a abbbbb
+abbbbba eps
+a abbbbbab
+abbbbbaba abb
+a abbbbbabab
+abbbbbabab abbbbbabab
+
+11
+eps b
+eps bb
+eps bbb
+bbba bbb
+eps bbbab
+bbbaba bb
+bbbabaa b
+eps bbbabaab
+bbbabaaba bb
+bbbabaabaa b
+bbbabaabaa bbbabaabaa
+
+11
+a eps
+a ab
+a abb
+abba eps
+a abbab
+a abbabb
+abba abbabbb
+abbabbba eps
+abbabbbaa ab
+abbabbbaaa ab
+abbabbbaaa abbabbbaaa
+
+11
+a eps
+aa eps
+aaa eps
+aaa aaab
+aaaba eps
+aaabaa eps
+aaabaaa eps
+aaa aaabaaab
+aaaba aaabaaabb
+aaabaaabba eps
+aaabaaabba aaabaaabba
+
+11
+eps b
+ba b
+eps bab
+baba b
+eps babab
+baba bababb
+ba bababbb
+ba bababbbb
+bababbbba b
+bababbbbaa bab
+bababbbbaa bababbbbaa
+
+11
+a eps
+a ab
+aba eps
+abaa ab
+a abaab
+aba abaabb
+abaabba eps
+abaabbaa ab
+abaabbaaa ab
+abaabbaaaa ab
+abaabbaaaa abaabbaaaa
+
+11
+a eps
+aa eps
+aa aab
+aaba eps
+aabaa eps
+aa aabaab
+aaba aabaabb
+a aabaabbb
+aabaabbba eps
+aa aabaabbbab
+aabaabbbab aabaabbbab
+
+11
+a eps
+aa eps
+aa aab
+aaba eps
+aa aabab
+aababa eps
+aababaa eps
+aababaaa aab
+aababaaaa aab
+aababaaaaa aab
+aababaaaaa aababaaaaa
+
+4
+eps b
+ba b
+baa b
+baa baa
+
+11
+eps b
+ba b
+eps bab
+ba babb
+ba babbb
+ba babbbb
+ba babbbbb
+babbbbba b
+eps babbbbbab
+ba babbbbbabb
+babbbbbabb babbbbbabb
+
+11
+eps b
+ba b
+eps bab
+baba b
+eps babab
+baba bababb
+ba bababbb
+ba bababbbb
+bababbbba b
+bababbbbaa bab
+bababbbbaa bababbbbaa
+
+11
+eps b
+ba b
+eps bab
+baba b
+eps babab
+bababa b
+eps bababab
+babababa b
+eps babababab
+babababa bababababb
+bababababb bababababb
+
+11
+eps b
+eps bb
+bba bb
+eps bbab
+bbaba bb
+eps bbabab
+eps bbababb
+bba bbababbb
+bba bbababbbb
+bba bbababbbbb
+bbababbbbb bbababbbbb
+
+11
+eps b
+eps bb
+eps bbb
+eps bbbb
+bbbba bbbb
+bbbbaa b
+eps bbbbaab
+bbbbaaba bb
+eps bbbbaabab
+eps bbbbaababb
+bbbbaababb bbbbaababb
+
+11
+a eps
+aa eps
+aaa eps
+aaaa eps
+aaaaa eps
+aaaaa aaaaab
+aaaaaba eps
+aaaaabaa eps
+aaa aaaaabaab
+aaaaabaaba eps
+aaaaabaaba aaaaabaaba
+
+11
+eps b
+ba b
+eps bab
+ba babb
+babba b
+babbaa bab
+babbaaa b
+eps babbaaab
+ba babbaaabb
+ba babbaaabbb
+babbaaabbb babbaaabbb
+
+11
+a eps
+a ab
+aba eps
+abaa ab
+a abaab
+abaaba eps
+abaa abaabab
+abaababa eps
+abaa abaababab
+aba abaabababb
+abaabababb abaabababb
+
+11
+eps b
+ba b
+eps bab
+ba babb
+ba babbb
+babbba b
+babbbaa bab
+eps babbbaab
+babbbaaba b
+eps babbbaabab
+babbbaabab babbbaabab
+
+11
+eps b
+eps bb
+bba bb
+bbaa b
+eps bbaab
+bbaaba bb
+eps bbaabab
+eps bbaababb
+bbaababba bb
+bbaa bbaababbab
+bbaababbab bbaababbab
+
+4
+a eps
+a ab
+a abb
+abb abb
+
+11
+eps b
+ba b
+eps bab
+baba b
+babaa bab
+eps babaab
+babaaba b
+babaabaa bab
+babaabaaa b
+eps babaabaaab
+babaabaaab babaabaaab
+
+11
+a eps
+aa eps
+aaa eps
+aaa aaab
+a aaabb
+a aaabbb
+a aaabbbb
+a aaabbbbb
+aaabbbbba eps
+aa aaabbbbbab
+aaabbbbbab aaabbbbbab
+
+11
+eps b
+ba b
+baa b
+eps baab
+baaba b
+baa baabab
+ba baababb
+baababba b
+baa baababbab
+ba baababbabb
+baababbabb baababbabb
+
+11
+a eps
+a ab
+a abb
+abba eps
+abbaa ab
+abbaaa ab
+a abbaaab
+a abbaaabb
+abbaaabba eps
+abbaaabbaa ab
+abbaaabbaa abbaaabbaa
+
+11
+a eps
+a ab
+a abb
+abba eps
+abbaa ab
+abbaaa ab
+abbaaaa ab
+a abbaaaab
+a abbaaaabb
+abbaaaabba eps
+abbaaaabba abbaaaabba
+
+11
+eps b
+ba b
+baa b
+baaa b
+eps baaab
+baaaba b
+baa baaabab
+ba baaababb
+ba baaababbb
+ba baaababbbb
+baaababbbb baaababbbb
+
+11
+a eps
+aa eps
+aa aab
+aaba eps
+aa aabab
+aababa eps
+aababaa eps
+aa aababaab
+aaba aababaabb
+aababaabba eps
+aababaabba aababaabba
+
+11
+eps b
+ba b
+baa b
+baaa b
+baaaa b
+eps baaaab
+baaaaba b
+baa baaaabab
+baaaababa b
+baa baaaababab
+baaaababab baaaababab
+
+11
+eps b
+eps bb
+bba bb
+eps bbab
+bbaba bb
+eps bbabab
+eps bbababb
+bba bbababbb
+bbababbba bb
+bbababbbaa bbab
+bbababbbaa bbababbbaa
+
+0
+

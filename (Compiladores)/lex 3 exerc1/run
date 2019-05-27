@@ -1,0 +1,4 @@
+rm *.class
+clear
+javac *.java
+java MainClass

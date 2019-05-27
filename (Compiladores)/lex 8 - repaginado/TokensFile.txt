@@ -1,0 +1,149 @@
+  2,  5  ::LITERAL_FLOAT        FLOAT 
+  2, 11  ::T_ID                 a
+  2, 12  ::DELIMIT_COMMA        ,
+  2, 14  ::T_ID                 b
+  2, 15  ::DELIMIT_SEMICOLON    ;
+  3,  5  ::T_ID                 a
+
+  3,  7  ::OP_ASSIGN            =
+  3,  9  ::NUMBER2              2.1
+  3, 12  ::DELIMIT_SEMICOLON    ;
+  4,  5  ::T_ID                 b
+
+  4,  7  ::OP_ASSIGN            =
+  4,  9  ::NUMBER2              3.9
+  4, 12  ::DELIMIT_SEMICOLON    ;
+  6,  5  ::LITERAL_INT          INT 
+
+  6,  9  ::T_ID                 a
+  6, 10  ::DELIMIT_COMMA        ,
+  6, 12  ::T_ID                 b
+  6, 13  ::DELIMIT_COMMA        ,
+  6, 15  ::T_ID                 c
+  6, 16  ::DELIMIT_SEMICOLON    ;
+  7,  5  ::T_ID                 c
+
+  7,  7  ::OP_ASSIGN            =
+  7,  9  ::NUMBER               0
+  7, 10  ::DELIMIT_SEMICOLON    ;
+  8,  5  ::T_ID                 a
+
+  8,  7  ::OP_ASSIGN            =
+  8,  9  ::DELIMIT_LPAR         (
+  8, 10  ::NUMBER2              4.1
+  8, 13  ::OP_PLUS              +
+  8, 14  ::NUMBER               5
+  8, 15  ::OP_MINUS             -
+  8, 16  ::NUMBER               1
+  8, 17  ::DELIMIT_RPAR         )
+  8, 18  ::OP_TIMES             *
+  8, 19  ::T_ID                 a
+  8, 20  ::OP_PLUS              +
+  8, 21  ::DELIMIT_LPAR         (
+  8, 22  ::T_ID                 b
+  8, 23  ::OP_TIMES             *
+  8, 24  ::NUMBER               4
+  8, 25  ::DELIMIT_RPAR         )
+  8, 26  ::DELIMIT_SEMICOLON    ;
+ 10,  5  ::LITERAL_PRINT        PRINT 
+
+ 10, 11  ::T_ID                 a
+ 10, 13  ::OP_PLUS              +
+ 10, 15  ::T_ID                 c
+ 10, 16  ::DELIMIT_SEMICOLON    ;
+ 11,  5  ::LITERAL_PRINT        PRINT 
+
+ 11, 11  ::DELIMIT_LPAR         (
+ 11, 12  ::T_ID                 a
+ 11, 13  ::OP_DIV               /
+ 11, 14  ::NUMBER               2
+ 11, 15  ::DELIMIT_RPAR         )
+ 11, 16  ::OP_PLUS              +
+ 11, 17  ::T_ID                 a
+ 11, 18  ::DELIMIT_SEMICOLON    ;
+ 12,  5  ::LITERAL_PRINT        PRINT 
+
+ 12, 11  ::T_ID                 b
+ 12, 12  ::DELIMIT_SEMICOLON    ;
+ 14,  5  ::LITERAL_INT          INT 
+
+ 14,  9  ::T_ID                 d
+ 14, 10  ::DELIMIT_COMMA        ,
+ 14, 12  ::T_ID                 e
+ 14, 13  ::DELIMIT_COMMA        ,
+ 14, 15  ::T_ID                 a
+ 14, 16  ::DELIMIT_COMMA        ,
+ 14, 18  ::T_ID                 f
+ 14, 19  ::DELIMIT_SEMICOLON    ;
+ 15,  5  ::LITERAL_INPUT        INPUT 
+
+ 15, 11  ::T_ID                 e
+ 15, 12  ::DELIMIT_COMMA        ,
+ 15, 14  ::T_ID                 f
+ 15, 15  ::DELIMIT_SEMICOLON    ;
+ 17,  5  ::LITERAL_STRING       STRING 
+
+ 17, 12  ::T_ID                 s
+ 17, 13  ::DELIMIT_COMMA        ,
+ 17, 15  ::T_ID                 r
+ 17, 16  ::DELIMIT_COMMA        ,
+ 17, 18  ::T_ID                 t
+ 17, 19  ::DELIMIT_SEMICOLON    ;
+ 18,  5  ::T_ID                 s
+
+ 18,  7  ::OP_ASSIGN            =
+ 18,  9  ::T_STRING             "imprima isto"
+ 18, 23  ::DELIMIT_SEMICOLON    ;
+ 19,  5  ::T_ID                 r
+
+ 19,  7  ::OP_ASSIGN            =
+ 19,  9  ::NUMBER               3
+ 19, 10  ::DELIMIT_SEMICOLON    ;
+ 20,  5  ::T_ID                 r
+
+ 20,  7  ::OP_ASSIGN            =
+ 20,  9  ::T_ID                 s
+ 20, 10  ::DELIMIT_SEMICOLON    ;
+ 21,  5  ::T_ID                 r
+
+ 21,  7  ::OP_ASSIGN            =
+ 21,  9  ::T_ID                 a
+ 21, 10  ::DELIMIT_SEMICOLON    ;
+ 22,  5  ::T_ID                 r
+
+ 22,  7  ::OP_ASSIGN            =
+ 22,  9  ::T_ID                 i
+ 22, 10  ::DELIMIT_SEMICOLON    ;
+ 24,  5  ::LITERAL_PRINT        PRINT 
+
+ 24, 11  ::T_ID                 s
+ 24, 12  ::DELIMIT_SEMICOLON    ;
+ 25,  5  ::LITERAL_PRINT        PRINT 
+
+ 25, 11  ::T_ID                 r
+ 25, 12  ::DELIMIT_SEMICOLON    ;
+ 26,  5  ::T_ID                 a
+
+ 26,  7  ::OP_ASSIGN            =
+ 26,  9  ::T_CHAR               'a'
+ 26, 12  ::DELIMIT_SEMICOLON    ;
+ 27,  5  ::T_ID                 a
+
+ 27,  7  ::OP_ASSIGN            =
+ 27,  9  ::T_ID                 b
+ 27, 10  ::OP_PLUS              +
+ 27, 11  ::T_ID                 a
+ 27, 12  ::DELIMIT_SEMICOLON    ;
+ 28,  5  ::LITERAL_PRINT        PRINT 
+
+ 28, 11  ::T_ID                 a
+ 28, 12  ::OP_PLUS              +
+ 28, 13  ::T_ID                 b
+ 28, 14  ::DELIMIT_SEMICOLON    ;
+ 31,  5  ::NUMBER               9
+
+ 31,  6  ::DELIMIT_SEMICOLON    ;
+ 31,  8  ::T_STRING             "string fora de lugar"
+ 31, 31  ::T_CHAR               '\\'
+ 31, 36  ::TOKEN_INVALIDO       'o que que vai dar isso?'
+ 32,  1  ::EOF                  

@@ -1,0 +1,29 @@
+
+
+   INT a, b, c, d;
+   PRINT "programa teste";
+
+   PRINT "digite a";
+   INPUT a;
+   
+   PRINT "digite b";
+   INPUT b;
+   
+   IF a<b 
+      c = a+b;
+   ELSE
+      c = b-a;
+   ENDIF
+   
+   PRINT "c é igual a";
+   PRINT c;
+   
+   d = c * a + b;
+   
+   PRINT "d é igual a";
+   PRINT d;
+   
+   
+   
+   
+   

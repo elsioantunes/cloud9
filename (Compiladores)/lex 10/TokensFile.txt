@@ -1,0 +1,114 @@
+  3,  4  ::LITERAL_INT          INT
+  3,  8  ::T_ID                 i
+  3,  9  ::DELIMIT_COMMA        ,
+  3, 11  ::T_ID                 j
+  3, 12  ::DELIMIT_SEMICOLON    ;
+
+  4,  4  ::LITERAL_STRING       STRING
+  4, 11  ::T_ID                 s1
+  4, 13  ::DELIMIT_COMMA        ,
+  4, 15  ::T_ID                 sabão
+  4, 20  ::DELIMIT_COMMA        ,
+  4, 22  ::T_ID                 égide
+  4, 27  ::DELIMIT_SEMICOLON    ;
+
+  5,  4  ::LITERAL_FLOAT        FLOAT
+  5, 10  ::T_ID                 x
+  5, 11  ::DELIMIT_COMMA        ,
+  5, 13  ::T_ID                 y
+  5, 14  ::DELIMIT_SEMICOLON    ;
+
+  9,  4  ::T_ID                 i
+  9,  6  ::OP_ASSIGN            =
+  9,  8  ::NUMBER               2
+  9,  9  ::DELIMIT_SEMICOLON    ;
+
+ 10,  4  ::T_ID                 j
+ 10,  6  ::OP_ASSIGN            =
+ 10,  8  ::DELIMIT_LPAR         (
+ 10,  9  ::DELIMIT_LPAR         (
+ 10, 10  ::DELIMIT_LPAR         (
+ 10, 11  ::NUMBER               3
+ 10, 12  ::OP_PLUS              +
+ 10, 13  ::NUMBER               4
+ 10, 14  ::DELIMIT_RPAR         )
+ 10, 15  ::OP_DIV               /
+ 10, 16  ::NUMBER               7
+ 10, 17  ::OP_PLUS              +
+ 10, 18  ::NUMBER               1
+ 10, 19  ::DELIMIT_RPAR         )
+ 10, 20  ::OP_TIMES             *
+ 10, 21  ::NUMBER               13
+ 10, 23  ::OP_MINUS             -
+ 10, 24  ::NUMBER               5
+ 10, 25  ::DELIMIT_RPAR         )
+ 10, 26  ::OP_DIV               /
+ 10, 27  ::NUMBER               7
+ 10, 28  ::DELIMIT_SEMICOLON    ;
+
+ 11,  4  ::T_ID                 égide
+ 11, 10  ::OP_ASSIGN            =
+ 11, 12  ::T_STRING             "Elsio "
+ 11, 21  ::OP_PLUS              +
+ 11, 23  ::T_STRING             "Antunes "
+ 11, 34  ::OP_PLUS              +
+ 11, 36  ::DELIMIT_LPAR         (
+ 11, 37  ::T_ID                 i
+ 11, 38  ::OP_TIMES             *
+ 11, 39  ::T_ID                 j
+ 11, 40  ::OP_TIMES             *
+ 11, 41  ::NUMBER               2
+ 11, 42  ::OP_PLUS              +
+ 11, 43  ::DELIMIT_LPAR         (
+ 11, 44  ::DELIMIT_LPAR         (
+ 11, 45  ::NUMBER               3
+ 11, 46  ::OP_PLUS              +
+ 11, 47  ::T_ID                 i
+ 11, 48  ::DELIMIT_RPAR         )
+ 11, 49  ::OP_TIMES             *
+ 11, 50  ::NUMBER               5
+ 11, 51  ::OP_PLUS              +
+ 11, 52  ::NUMBER               8
+ 11, 53  ::DELIMIT_RPAR         )
+ 11, 54  ::DELIMIT_RPAR         )
+ 11, 55  ::DELIMIT_SEMICOLON    ;
+
+ 12,  4  ::LITERAL_PRINT        PRINT
+ 12, 10  ::T_ID                 égide
+ 12, 15  ::DELIMIT_SEMICOLON    ;
+
+ 14,  4  ::LITERAL_PRINT        PRINT
+ 14, 10  ::T_STRING             "diga seu nome e me de dois numeros"
+ 14, 46  ::DELIMIT_SEMICOLON    ;
+
+ 15,  4  ::LITERAL_INPUT        INPUT
+ 15, 10  ::T_ID                 sabão
+ 15, 15  ::DELIMIT_COMMA        ,
+ 15, 17  ::T_ID                 x
+ 15, 18  ::DELIMIT_COMMA        ,
+ 15, 20  ::T_ID                 y
+ 15, 21  ::DELIMIT_SEMICOLON    ;
+
+ 17,  4  ::LITERAL_PRINT        PRINT
+ 17, 10  ::T_STRING             "Olá "
+ 17, 16  ::OP_PLUS              +
+ 17, 18  ::T_ID                 sabão
+ 17, 23  ::OP_PLUS              +
+ 17, 24  ::T_STRING             "\nA soma de "
+ 17, 38  ::OP_PLUS              +
+ 17, 39  ::T_ID                 x
+ 17, 40  ::OP_PLUS              +
+ 17, 41  ::T_STRING             " e "
+ 17, 46  ::OP_PLUS              +
+ 17, 47  ::T_ID                 y
+ 17, 48  ::OP_PLUS              +
+ 17, 49  ::T_STRING             " é "
+ 17, 54  ::OP_PLUS              +
+ 17, 55  ::DELIMIT_LPAR         (
+ 17, 56  ::T_ID                 x
+ 17, 57  ::OP_PLUS              +
+ 17, 58  ::T_ID                 y
+ 17, 59  ::DELIMIT_RPAR         )
+ 17, 60  ::DELIMIT_SEMICOLON    ;
+
+ 21,  4  ::EOF                  

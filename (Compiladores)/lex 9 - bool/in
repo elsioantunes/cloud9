@@ -1,0 +1,17 @@
+
+   STRING str;
+   INT i, j;
+   BOOL t;
+   
+   //INPUT i, j;
+   //IF i < j
+   
+   i = 10;
+   j = 20;
+   
+   t = true && false;
+   
+   PRINT true ;
+   
+   
+   
