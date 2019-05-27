@@ -6,3 +6,11 @@ https://jsfiddle.net/mjh0qfw5/32/
 sudo rm -rf /tmp/*​
 sudo apt-get install ncdu
 ncdu
+
+### git 
+echo "# bla" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:elsioantunes/bla.git
+git push -u origin master
