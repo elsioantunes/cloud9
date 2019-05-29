@@ -15,24 +15,27 @@ def _hash(state):
 def isGoal(state):
     return state == goal
 
-def item_swp(s, i, j):
+def item_swp(s, i):
+    j = s[9]
     s[i], s[j] = s[j], s[i]
     s[9] = i
     
-
-def neigh(state):
-    nb = []
-    valid = [[1, 3], [0, 2, 4],[1, 5], 
-            [0, 4, 6], [1, 3, 5, 7], [2, 4, 8],
-            [3, 7], [4, 6, 8], [5, 7]]
+def valid(j):
+    mv = []
+    if j % 3 > 0: mv += [j - 1]
+    if j % 3 < 2: mv += [j + 1]
+    if j / 3 > 0: mv += [j - 3]
+    if j / 3 < 2: mv += [j + 3]
+    return mv
     
-    j = state[9]
-    for i in valid[j]:
+def neigh(state):
+    j = state[9]    
+    nb = []
+    for i in valid(j):
         s = state[:]
-        item_swp(s, i, j)
-        nb.append((s, i))
+        item_swp(s, i)
+        nb += [(s, i)]    
     return nb
-
 
 def bfs(state):
     v = set()
@@ -40,11 +43,10 @@ def bfs(state):
     while f:
         atual, path = f.pop()
         if isGoal(atual): return path
-        if _hash(atual) in v: continue
-        
+        if _hash(atual) in v: continue        
+        v.add(_hash(atual))
         for prox, p in neigh(atual):
             f = [[prox, path + [p]]] + f
-        v.add(_hash(atual))
     return 666
 
 goal = [1, 2, 3, 4, 5, 6, 7, 8, 0, 8]
